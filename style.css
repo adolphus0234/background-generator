@@ -1,0 +1,62 @@
+body {
+	font-family: georgia;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.7rem;
+	background: linear-gradient(to right, red, yellow);
+	top: 15%;
+	margin: 0px;
+}
+
+h1 {
+	color: rgba(0, 0, 0,0.6);
+	font-size: 3.5em;
+	letter-spacing: 0.1em;
+	width: 100%;
+}
+
+h2 {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+	font-family: arial;
+	font-size: 1.3em;
+	text-transform: lowercase;
+	letter-spacing: 0em;
+}
+
+#random-bg {
+	text-transform: uppercase;
+	font-family: ariel;
+	font-size: 1.4em;
+	font-weight: bold;
+	border-radius: 600px;
+	border-color: white;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	transition: 0.5s;
+}
+
+#random-bg:hover {
+	background-color: #2B2B2B;
+	color: #04F4FF;
+	transform: scale(1.1);
+}
+
+.color1 {
+	transition: 1s;
+}
+
+.color1:hover {
+	transform: scale(1.2);
+}
+
+.color2 {
+	transition: 1s;
+}
+
+.color2:hover {
+	transform: scale(1.2);
+}
